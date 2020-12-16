@@ -1,40 +1,88 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-image="img/siwash.jpg">
+          <div style="font-size:18pt; text-align: left; float:right;
+            width: 450px; color:black">
+            <br />
+          <p
+          style="font-size:36pt">The Onus of Explanation</p>
+          <p>Forum for Information Professionals, February 12,
+          2021</p>
+          <p>Sam Popowich<br />Head, Discovery and Web Services,
+          University of Alberta Library and Museums</p>
+          <p>PhD Student, University of Birmingham, School of Government
+          and Society</p>
+          <br /><br /><br /><br />
+          <p style="color:white;font-size:14pt">https://redlibrarian.github.io/onus_of_explanation/index.html</p>
+          </div>
+        </section>
+        <section data-background-image="img/treaty6.png">
+          <a href="https://en.wikipedia.org/wiki/Numbered_Treaties"
+             target="_blank" style="color:black; font-size:14pt;
+             text-align:right; float:right">Source: Wikipedia</a>
+        </section>
+        <section>
+          <a
+                             href="https://www.thestar.com/opinion/commentary/2014/08/26/the_ideological_roots_of_stephen_harpers_vendetta_against_sociology.html"><img
+                             src="img/harper.png" height="200" /></a>
+          <a
+                                                  href="https://www.huffingtonpost.ca/entry/jason-kenney-intersectionality-throne-speech_ca_5f6d1f22c5b64deddeeb2130"><img
+                                                  src="img/kenney.png"
+                                                  height="100" /></a>
+          <a
+                                                  href="https://www.nbcnews.com/think/opinion/trump-s-white-house-says-critical-race-theory-anti-american-ncna1239825"><img
+                                                  src="img/trump.png"
+                                                  height="100" /></a>
+          <a
+                                                  href="https://www.theguardian.com/commentisfree/2020/oct/23/uk-critical-race-theory-trump-conservatives-structural-inequality"><img
+                                                  src="img/uk.png"
+                                                  height="100" /></a>
+        </section>
+        <section style="text-align:left;
+          font-family:serif;font-size:20pt">
+            <div style="float:right; width:500px">
+          <br /><br /><br />
+          <blockquote
+                 cite="https://www.whitehouse.gov/presidential-actions/executive-order-combating-race-sex-stereotyping/">
+            contrary to the fundamental premises underpinning our
+            Republic: that all individuals are created equal and should
+            be allowed an equal opportunity under the law to pursue
+            happiness and prosper based on individual
+            merit.</blockquote></div>
+          <img src="img/Funicular.jpg" height="600" />
+        </section>
+      </div>
+    </div>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
-
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        center: false,
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
 </html>
